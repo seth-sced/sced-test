@@ -1,6 +1,6 @@
-## Experiment in exploding a TTS Mod
+# Experiment in exploding a TTS Mod
 
-Tools
+## Tools
 
 ### dumpmod: A tool to explode a TTS mod json file for source control
 
