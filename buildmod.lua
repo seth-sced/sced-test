@@ -29,15 +29,31 @@ function read_luaxmlstate(path, obj)
   if ui then obj.XmlUI = ui:read('a') end
 end
 
+function find_object_json(path)
+  for entry in fs.dir(path) do
+    if entry:match('object-.*%.json') then return entry end
+  end
+  return nil
+end
+
 local skip = {['.'] = true, ['..'] = true}
 function read_object_dict(path)
   local dict = {}
+  local count = 0
   for entry in fs.dir(path) do
     -- skip anything that's not a directory containing an object.json file
-    if not skip[entry] and fs.attributes(path .. '/' .. entry .. '/object.json', 'mode') then
-      dict[entry] = read_object(path .. '/' .. entry)
+
+    if not skip[entry] and fs.attributes(path .. '/' .. entry, 'mode') == 'directory' then
+      local obj_entry = find_object_json(path .. '/' .. entry)
+      if obj_entry then
+        dict[entry] = read_object(path .. '/' .. entry)
+        count = count + 1
+      end
     end
   end
+
+  -- must have found some states - TTS doesn't handle empty arrays here well
+  assert(count > 0)
   return dict
 end
 
@@ -52,7 +68,10 @@ function read_object_array(path)
 end
 
 function read_object(path)
-  local obj_file <close> = io.open(path .. '/object.json', 'r')
+  local obj_filename = find_object_json(path)
+  if not obj_filename then print('failed to find object at ' .. path) return nil end
+
+  local obj_file <close> = io.open(path .. '/' .. obj_filename, 'r')
   if not obj_file then print('failed to read object at ' .. path) return nil end
 
   if path:match('%.$') then error('traversing .. or ..') end

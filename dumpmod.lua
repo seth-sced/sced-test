@@ -48,6 +48,10 @@ function write_luaxmlstate(obj)
   obj.XmlUI = ""
 end
 
+function sanitized(str)
+  return str:gsub('[^%a%d-._]', '_')
+end
+
 function recursive_write_luaxmlstate(obj)
   local States = obj.States
   obj.States = nil
@@ -61,7 +65,10 @@ function recursive_write_luaxmlstate(obj)
   if obj.Name == 'Deck' then
     setmetatable(obj.CustomDeck, {__jsonorder = keyorder_for_CustomDeck(obj.CustomDeck)})
   end
-  write_file('object.json', json.encode(obj, {indent = true, keyorder = json_keyorder}))
+  local safename = ('object-%s-%s.json'):format(sanitized(obj.Name),
+    (#(obj.Nickname) > 0 and sanitized(obj.Nickname)) or '' )
+
+  write_file(safename, json.encode(obj, {indent = true, keyorder = json_keyorder}))
 
   if ContainedObjects then
     fs.mkdir('ContainedObjects')
