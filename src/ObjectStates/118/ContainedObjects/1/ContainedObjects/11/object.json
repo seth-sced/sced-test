@@ -1,0 +1,51 @@
+{
+  "GUID":"36b4eb",
+  "Name":"Custom_PDF",
+  "Transform":{
+    "posX":0.270094126,
+    "posY":1.489607,
+    "posZ":28.7769928,
+    "rotX":359.920135,
+    "rotY":269.999939,
+    "rotZ":0.0168723073,
+    "scaleX":3.0,
+    "scaleY":1.0,
+    "scaleZ":3.0
+  },
+  "Nickname":"Campaign Guide",
+  "Description":"The Meddling of Meowlathotep",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "CustomPDF":{
+    "PDFUrl":"http://cloud-3.steamusercontent.com/ugc/1626320456297582485/FD9DDA786EDAE5BAAA4D4F8474E89E5C9B328317/",
+    "PDFPassword":"",
+    "PDFPage":0,
+    "PDFPageOffset":0
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

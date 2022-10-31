@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"5d30a1",
+  "Name":"Card",
+  "Transform":{
+    "posX":9.131704,
+    "posY":4.953803,
+    "posZ":-16.7225761,
+    "rotX":359.920258,
+    "rotY":269.795776,
+    "rotZ":0.0167024639,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"The Tattered Cloak",
+  "Description":"Regalia Dementia",
+  "GMNotes":"{\n  \"id\": \"03143\",\n  \"type\": \"Asset\",\n  \"class\": \"Neutral\",\n  \"cost\": 2,\n  \"traits\": \"Item. Clothing.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"willpowerIcons\": 1,\n  \"combatIcons\": 1,\n  \"agilityIcons\": 1,\n  \"cycle\": \"The Path to Carcosa\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":232333,
+  "CustomDeck":{
+    "2323":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/775107058378761608/B291D276D6FF71FDB43B69DE7507D56767BE975E/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

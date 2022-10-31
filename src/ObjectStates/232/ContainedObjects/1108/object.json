@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"8116a6",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.44843,
+    "posY":1.75159788,
+    "posZ":-73.08683,
+    "rotX":0.0150720812,
+    "rotY":179.999908,
+    "rotZ":359.9796,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"\"Skids\" O'Toole (Parallel Front)",
+  "Description":"The Ex-Con",
+  "GMNotes":"{\n  \"id\": \"01003-pf\",\n  \"type\": \"Investigator\",\n  \"class\": \"Rogue\",\n  \"traits\": \"Criminal.\",\n  \"willpowerIcons\": 2,\n  \"intellectIcons\": 3,\n  \"combatIcons\": 3,\n  \"agilityIcons\": 4,\n  \"cycle\": \"Core\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":270203,
+  "CustomDeck":{
+    "2702":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1655599718154536333/92BABC93BFBC5E1DA2C2A7B5EA5E62151E0DE3D7/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1655599718154537387/9BBCF9ACFA26E3C0649434C832E5681AB731A77B/",
+      "NumWidth":3,
+      "NumHeight":2,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

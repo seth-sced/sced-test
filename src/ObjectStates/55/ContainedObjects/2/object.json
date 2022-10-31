@@ -1,0 +1,48 @@
+{
+  "GUID":"3a6cef",
+  "Name":"Tablet",
+  "Transform":{
+    "posX":53.79887,
+    "posY":3.449519,
+    "posZ":-73.81104,
+    "rotX":0.0442574881,
+    "rotY":270.0,
+    "rotZ":0.0167625211,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Alternate Playmat Images",
+  "Description":"Open this page in your actual browser to get the image URLs.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "Tablet":{
+    "PageURL":"https://ibb.co/album/tPYhgC?sort=date_asc"
+  }
+}

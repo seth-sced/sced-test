@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"d37332",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.448801,
+    "posY":1.47755039,
+    "posZ":-73.0881653,
+    "rotX":0.228655413,
+    "rotY":179.9959,
+    "rotZ":359.9421,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Lola Hayes",
+  "Description":"The Actress",
+  "GMNotes":"{\n  \"id\": \"03006\",\n  \"type\": \"Investigator\",\n  \"class\": \"Neutral\",\n  \"traits\": \"Performer.\",\n  \"willpowerIcons\": 3,\n  \"intellectIcons\": 3,\n  \"combatIcons\": 3,\n  \"agilityIcons\": 3,\n  \"cycle\": \"The Path to Carcosa\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":271215,
+  "CustomDeck":{
+    "2712":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1011562618093845971/A678BD374EC4DE672206B5EF7EB57DC885BC839C/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1011562618093845464/80687C9319FA2015F3D9F7CBEB4C55FBF045B27D/",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

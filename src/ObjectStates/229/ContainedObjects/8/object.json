@@ -1,0 +1,45 @@
+{
+  "GUID":"8cd599",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":14.16023,
+    "posY":1.523038,
+    "posZ":-29.64856,
+    "rotX":0.07987347,
+    "rotY":89.98799,
+    "rotZ":359.983124,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Jumanji Campaign Log",
+  "Description":"Page 1: Investigator details and notes\nPage 2: Scenario progress, turns taken, threat lists, tokens added\n\nPress page up/page down to swap between the pages",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":false,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

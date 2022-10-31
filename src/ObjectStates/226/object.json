@@ -1,0 +1,57 @@
+{
+  "GUID":"280086",
+  "Name":"Custom_Token",
+  "Transform":{
+    "posX":77.1586761,
+    "posY":1.2837739,
+    "posZ":7.589117,
+    "rotX":359.99,
+    "rotY":269.999969,
+    "rotZ":359.984558,
+    "scaleX":0.143845782,
+    "scaleY":1.0,
+    "scaleZ":0.143845782
+  },
+  "Nickname":"Drawing Tool",
+  "Description":"Enables drawing lines between objects with Numpad 0.\n\nLong press it to only draw the lines to the hovered object.\n\nSee context menu for additional information.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":true,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "CustomImage":{
+    "ImageURL":"http://cloud-3.steamusercontent.com/ugc/1850441528392677845/F9F54E5144735C7DDFFF88E5D706D0750BA08FBA/",
+    "ImageSecondaryURL":"",
+    "ImageScalar":1.0,
+    "WidthScale":0.0,
+    "CustomToken":{
+      "Thickness":0.1,
+      "MergeDistancePixels":15.0,
+      "StandUp":false,
+      "Stackable":false
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

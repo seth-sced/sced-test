@@ -1,0 +1,57 @@
+{
+  "GUID":"f5db25",
+  "Name":"Custom_Tile",
+  "Transform":{
+    "posX":-3.6762,
+    "posY":1.58233988,
+    "posZ":-14.5353994,
+    "rotX":359.919739,
+    "rotY":269.999817,
+    "rotZ":0.0168380681,
+    "scaleX":2.2,
+    "scaleY":1.0,
+    "scaleZ":2.2
+  },
+  "Nickname":"The Meddling of Meowlathotep",
+  "Description":"click to set chaos token difficulty",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "CustomImage":{
+    "ImageURL":"http://cloud-3.steamusercontent.com/ugc/965354846165100486/3DC8FCEF364B30758B09EF96AF9458F2B8E64D56/",
+    "ImageSecondaryURL":"https://i.imgur.com/EcbhVuh.jpg/",
+    "ImageScalar":1.0,
+    "WidthScale":0.0,
+    "CustomTile":{
+      "Thickness":0.1,
+      "Stackable":false,
+      "Type":3,
+      "Stretch":true
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

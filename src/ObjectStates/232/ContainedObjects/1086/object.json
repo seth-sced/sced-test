@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"333fe7",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.4481678,
+    "posY":2.002793,
+    "posZ":-73.08708,
+    "rotX":0.016779948,
+    "rotY":179.999954,
+    "rotZ":359.9792,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Trish Scarborough",
+  "Description":"The Spy",
+  "GMNotes":"{\n  \"id\": \"07003\",\n  \"type\": \"Investigator\",\n  \"class\": \"Rogue\",\n  \"traits\": \"Agency. Detective.\",\n  \"willpowerIcons\": 2,\n  \"intellectIcons\": 4,\n  \"combatIcons\": 2,\n  \"agilityIcons\": 4,\n  \"cycle\": \"The Innsmouth Conspiracy\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":553402,
+  "CustomDeck":{
+    "5534":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1626320664132672550/E5E1C8EE53C7692025E048F0A04BE98D6FA17111/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1626320664132672810/20E21AC471D7E5E1545F0EAE635A093718D4C7CF/",
+      "NumWidth":3,
+      "NumHeight":2,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

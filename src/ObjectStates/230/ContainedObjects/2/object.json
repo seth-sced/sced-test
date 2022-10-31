@@ -1,0 +1,45 @@
+{
+  "GUID":"5b9142",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":5.735743,
+    "posY":1.38088107,
+    "posZ":-58.15008,
+    "rotX":359.9792,
+    "rotY":89.9989853,
+    "rotZ":359.983215,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"“Battle Goes On” Player Cards",
+  "Description":"You may purchase & include cards like you normally would. \nDuring setup, build a \"BGO\" deck using the 18 cards on the right, one copy of each. (Other players purchasing cards won't affect the deck) Everyone in play shares the same \"BGO\" deck. When a card from the \"BGO\" deck enters a play area, it's considered a part of that player's deck during this game. It will go into the player's discard pile once you discard it.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

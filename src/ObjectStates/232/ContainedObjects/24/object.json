@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"87718c",
+  "Name":"Card",
+  "Transform":{
+    "posX":8.971655,
+    "posY":4.076544,
+    "posZ":-16.6886063,
+    "rotX":359.920074,
+    "rotY":270.012573,
+    "rotZ":0.0168711413,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Relic of Ages",
+  "Description":"Repossess the Past",
+  "GMNotes":"{\n  \"id\": \"04303\",\n  \"type\": \"Asset\",\n  \"class\": \"Neutral\",\n  \"cost\": 2,\n  \"traits\": \"Item. Relic.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"wildIcons\": 3,\n  \"cycle\": \"The Forgotten Age\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":235840,
+  "CustomDeck":{
+    "2358":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1467561769777501236/D145C8B748FB42258EB442B9DF36797851CEECC3/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

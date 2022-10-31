@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"5630c2",
+  "Name":"Card",
+  "Transform":{
+    "posX":9.095246,
+    "posY":3.73006725,
+    "posZ":-16.71447,
+    "rotX":359.8897,
+    "rotY":269.870728,
+    "rotZ":0.036338266,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Sergeant Monroe",
+  "Description":"Two Days Until Retirement",
+  "GMNotes":"{\n  \"id\": \"84008\",\n  \"type\": \"Asset\",\n  \"class\": \"Neutral\",\n  \"cost\": 5,\n  \"traits\": \"Ally. Police.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"willpowerIcons\": 1,\n  \"combatIcons\": 1,\n  \"wildIcons\": 1,\n  \"cycle\": \"Standalone\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":534902,
+  "CustomDeck":{
+    "5349":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/778493212055041441/90F035BD69A7C5C6B6F43426DDDA3A09DFCBCBDF/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

@@ -1,0 +1,57 @@
+{
+  "GUID":"8112ff",
+  "Name":"Custom_Tile",
+  "Transform":{
+    "posX":12.1737871,
+    "posY":4.2156744,
+    "posZ":29.9137135,
+    "rotX":0.0712406039,
+    "rotY":270.087463,
+    "rotZ":42.47016,
+    "scaleX":2.2,
+    "scaleY":1.0,
+    "scaleZ":2.2
+  },
+  "Nickname":"Generic Difficulty Selector",
+  "Description":"click to set chaos token difficulty",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "CustomImage":{
+    "ImageURL":"http://cloud-3.steamusercontent.com/ugc/965354846165100486/3DC8FCEF364B30758B09EF96AF9458F2B8E64D56/",
+    "ImageSecondaryURL":"https://i.imgur.com/EcbhVuh.jpg/",
+    "ImageScalar":1.0,
+    "WidthScale":0.0,
+    "CustomTile":{
+      "Thickness":0.1,
+      "Stackable":false,
+      "Type":3,
+      "Stretch":true
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

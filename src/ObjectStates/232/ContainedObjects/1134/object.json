@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"70d488",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.4489746,
+    "posY":1.49235034,
+    "posZ":-73.08729,
+    "rotX":359.869781,
+    "rotY":179.996552,
+    "rotZ":0.0207084343,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Norman Withers (promo version)",
+  "Description":"The Astronomer",
+  "GMNotes":"{\n  \"id\": \"08004-promo\",\n  \"type\": \"Investigator\",\n  \"class\": \"Seeker\",\n  \"traits\": \"Miskatonic.\",\n  \"willpowerIcons\": 4,\n  \"intellectIcons\": 5,\n  \"combatIcons\": 2,\n  \"agilityIcons\": 1,\n  \"cycle\": \"Edge of the Earth\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":440900,
+  "CustomDeck":{
+    "4409":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1697277388086987329/F381129808CB4D0ECD8508777784ECD8B7C1691F/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1697277388086987553/817496FCFFBF0B8ADCE3B09A9671D6F549BE5881/",
+      "NumWidth":2,
+      "NumHeight":2,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

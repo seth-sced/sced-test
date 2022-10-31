@@ -1,0 +1,46 @@
+{
+  "Tags":["import_command"],
+  "GUID":"ec5b5f",
+  "Name":"Checker_white",
+  "Transform":{
+    "posX":-48.1045723,
+    "posY":3.41552949,
+    "posZ":-72.64007,
+    "rotX":0.0208915975,
+    "rotY":270.023926,
+    "rotZ":180.0168,
+    "scaleX":0.350000441,
+    "scaleY":0.350000441,
+    "scaleZ":0.350000441
+  },
+  "Nickname":"Zone Command",
+  "Description":"",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

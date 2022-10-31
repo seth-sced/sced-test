@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"03a4de",
+  "Name":"Card",
+  "Transform":{
+    "posX":8.979429,
+    "posY":3.99173117,
+    "posZ":-16.6901741,
+    "rotX":359.914337,
+    "rotY":270.014038,
+    "rotZ":0.018247962,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Anna Kaslow (4)",
+  "Description":"Mysterious Soothsayer",
+  "GMNotes":"{\n  \"id\": \"05283\",\n  \"type\": \"Asset\",\n  \"class\": \"Neutral\",\n  \"cost\": 3,\n  \"level\": 4,\n  \"traits\": \"Ally. Clairvoyant.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"wildIcons\": 1,\n  \"cycle\": \"The Circle Undone\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":373910,
+  "CustomDeck":{
+    "3739":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1016065725025942034/FEADE7F6206804B42CC9B6049F51EDF6040C5D1D/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg/",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

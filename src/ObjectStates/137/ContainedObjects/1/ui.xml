@@ -1,0 +1,177 @@
+<!-- include ttslua/DeckImporter/src/MassMetadataHelper.xml -->
+<Defaults>
+  <Panel class="Divider"
+    color="#AAAAAA"
+    width="800"
+    height="3"/>
+  <Text class="FleetShipLabel"
+    colors="#bb0000|#AAAAAA|#AAAAAA|#000000"
+    fontSize="22"
+    alignment="MiddleLeft" />
+</Defaults>
+<Panel
+  height="1570"
+  width="1300"
+  rotation="0 0 90"
+  position="0 0 -11"
+  scale="0.15 0.2 0"
+  color="#00000000"
+  offsetXY="0 0">
+  <Text
+  offsetXY="0 0"
+  rectAlignment="UpperLeft"
+  width="1300"
+  height="320"
+  color="#000000"
+  fontSize="36"
+  alignment="UpperLeft">
+  <textsize size="52"><b>Step 1: Tag the Cards</b></textsize>
+  Enter the GUID of a Card, Bag, or Deck to tag.
+  <b>Card:</b> That specific card will be tagged based on its name/description
+  <b>Bag/Deck:</b> All cards in the container will be tagged
+
+  Tagged cards will be moved to just below this helper.  Cards which cannot be tagged will be placed in a separate pile.
+  </Text>
+  <Text
+  offsetXY="-110 -350"
+  rectAlignment="UpperCenter"
+  width="400"
+  height="150"
+  color="#000000"
+  fontSize="48"
+  alignment="UpperLeft"><b>GUID to tag:</b></Text>
+  <InputField
+    offsetXY="110 -345"
+    rectAlignment="UpperCenter"
+    width="250"
+    height="70"
+    lineType="singleLine"
+    textColor="#000000"
+    fontSize="48"
+    outline="#000000"
+    outlineSize="1"
+    color="#f5deb3"
+    colors="#f5deb3|#f5deb3|#f5deb3|#f5deb3"
+    placeholder=" "
+    characterLimit="6"
+    onValueChanged="tagTargetGuidChanged" />
+  <Button
+    offsetXY="0 -440"
+    rectAlignment="UpperCenter"
+    width="240"
+    height="80"
+    onClick="tagCards"
+    fontSize="52">Tag It!</Button>
+  <Text
+    offsetXY="0 -540"
+    rectAlignment="UpperLeft"
+    width="1300"
+    height="360"
+    color="#000000"
+    fontSize="36"
+    alignment="UpperLeft">
+    <textsize size="52"><b>Step 2: Verify the Tags</b></textsize>
+    Enter the GUID of a Card, Bag, or Deck to verify.
+    <b>Card:</b> That specific card will be have its metadata checked
+    <b>Deck or Bag:</b> All cards in the container will be checked
+
+    Verification will check that metadata is present and can be parsed.  It <i>does not</i> verify that the correct metadata is present.  In other words, if a card does not have an ID in the metadata it will fail, but if it has the wrong ID that will not be detected.
+    </Text>
+  <Text
+  offsetXY="-140 -930"
+  rectAlignment="UpperCenter"
+  width="400"
+  height="150"
+  color="#000000"
+  fontSize="48"
+  alignment="UpperLeft"><b>GUID to verify:</b></Text>
+  <InputField
+    offsetXY="140 -925"
+    rectAlignment="UpperCenter"
+    width="250"
+    height="70"
+    lineType="singleLine"
+    textColor="#000000"
+    fontSize="48"
+    outline="#000000"
+    outlineSize="1"
+    color="#f5deb3"
+    colors="#f5deb3|#f5deb3|#f5deb3|#f5deb3"
+    placeholder=" "
+    characterLimit="6"
+    onValueChanged="verifyTargetGuidChanged" />
+  <Button
+    offsetXY="0 -1020"
+    rectAlignment="UpperCenter"
+    width="240"
+    height="80"
+    onClick="verifyCards"
+    fontSize="52">Verify It!</Button>
+
+    <Text
+      offsetXY="0 -1140"
+      rectAlignment="UpperLeft"
+      width="1300"
+      height="180"
+      color="#000000"
+      fontSize="36"
+      alignment="UpperLeft">
+      <textsize size="52"><b>Step 3: Bag the Cards</b></textsize>
+      Enter the GUID of a Bag or Deck to move all cards to the All Cards Bag.
+      </Text>
+      <Text
+      offsetXY="-200 -1300"
+      rectAlignment="UpperCenter"
+      width="480"
+      height="150"
+      color="#000000"
+      fontSize="48"
+      alignment="UpperLeft"><b>GUID to move from:</b></Text>
+    <InputField
+      offsetXY="200 -1295"
+      rectAlignment="UpperCenter"
+      width="250"
+      height="70"
+      lineType="singleLine"
+      textColor="#000000"
+      fontSize="48"
+      outline="#000000"
+      outlineSize="1"
+      color="#f5deb3"
+      colors="#f5deb3|#f5deb3|#f5deb3|#f5deb3"
+      placeholder=" "
+      characterLimit="6"
+      onValueChanged="moveTargetGuidChanged" />
+    <Text
+      offsetXY="-200 -1390"
+      rectAlignment="UpperCenter"
+      width="480"
+      height="150"
+      color="#000000"
+      fontSize="48"
+      alignment="UpperLeft"><b>All Cards Bag GUID:</b></Text>
+    <InputField
+      offsetXY="200 -1385"
+      rectAlignment="UpperCenter"
+      width="250"
+      height="70"
+      lineType="singleLine"
+      textColor="#000000"
+      fontSize="48"
+      outline="#000000"
+      outlineSize="1"
+      color="#f5deb3"
+      colors="#f5deb3|#f5deb3|#f5deb3|#f5deb3"
+      placeholder=" "
+      characterLimit="6"
+      onValueChanged="allCardsGuidChanged" />
+  <Button
+    offsetXY="0 -1480"
+    rectAlignment="UpperCenter"
+    width="240"
+    height="80"
+    onClick="moveToAllCardsBag"
+    fontSize="52">Bag It!</Button>
+</Panel>
+
+<!-- include ttslua/DeckImporter/src/MassMetadataHelper.xml -->

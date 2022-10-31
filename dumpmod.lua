@@ -3,10 +3,8 @@ local do_unbundle = true
 
 local json = require 'dkjson'
 local fs = require 'lfs'
-local url = require 'urlencode'
 
 local janky = require 'jankybundle'
-
 local json_keyorder = require 'keyorder'
 
 function is_nil_or_empty(str)

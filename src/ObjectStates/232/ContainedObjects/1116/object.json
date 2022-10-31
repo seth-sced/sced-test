@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"560cef",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.4485111,
+    "posY":1.66114116,
+    "posZ":-73.08675,
+    "rotX":0.01251723,
+    "rotY":179.999847,
+    "rotZ":359.980255,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Roland Banks (Parallel Back)",
+  "Description":"The Fed",
+  "GMNotes":"{\n  \"id\": \"01001-pb\",\n  \"type\": \"Investigator\",\n  \"class\": \"Guardian\",\n  \"traits\": \"Agency. Detective.\",\n  \"willpowerIcons\": 3,\n  \"intellectIcons\": 3,\n  \"combatIcons\": 4,\n  \"agilityIcons\": 2,\n  \"cycle\": \"Core\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":536100,
+  "CustomDeck":{
+    "5361":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1697276706761477165/4BDF4AF6F55103AAA509DC67C952B660B5995707/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1697276706761477858/7CDB3552B0A37462AD965C5F67DF81A1EF9D4D60/",
+      "NumWidth":3,
+      "NumHeight":3,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

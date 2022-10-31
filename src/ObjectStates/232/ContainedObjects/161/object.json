@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"f295d9",
+  "Name":"Card",
+  "Transform":{
+    "posX":8.970766,
+    "posY":3.8725965,
+    "posZ":-16.6883869,
+    "rotX":359.907471,
+    "rotY":270.0134,
+    "rotZ":0.0199382585,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Clasp of Black Onyx",
+  "Description":"A Gift Unlooked For",
+  "GMNotes":"{\n  \"id\": \"03142\",\n  \"type\": \"Asset\",\n  \"class\": \"Neutral\",\n  \"cost\": 1,\n  \"traits\": \"Item. Relic.\",\n  \"permanent\": false,\n  \"weakness\": true,\n  \"cycle\": \"The Path to Carcosa\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":232332,
+  "CustomDeck":{
+    "2323":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/775107058378761608/B291D276D6FF71FDB43B69DE7507D56767BE975E/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

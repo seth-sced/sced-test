@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"e8b179",
+  "Name":"Card",
+  "Transform":{
+    "posX":9.131704,
+    "posY":5.28602839,
+    "posZ":-16.7225761,
+    "rotX":359.920258,
+    "rotY":269.795776,
+    "rotZ":0.01661379,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Cryptic Grimoire (4)",
+  "Description":"Text of the Elder Herald",
+  "GMNotes":"{\n  \"id\": \"07191\",\n  \"type\": \"Asset\",\n  \"class\": \"Seeker\",\n  \"cost\": 3,\n  \"level\": 4,\n  \"traits\": \"Item. Tome. Cursed.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"intellectIcons\": 1,\n  \"agilityIcons\": 1,\n  \"cycle\": \"The Innsmouth Conspiracy\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":588102,
+  "CustomDeck":{
+    "5881":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1762566393205073673/1FABAC4DD6EF3706D8C8285A256A13F43AE6B1E1/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg/",
+      "NumWidth":6,
+      "NumHeight":3,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

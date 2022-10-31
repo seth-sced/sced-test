@@ -1,0 +1,58 @@
+{
+  "GUID":"f549b6",
+  "Name":"Card",
+  "Transform":{
+    "posX":-5.284719,
+    "posY":1.37558913,
+    "posZ":70.532486,
+    "rotX":0.0141254179,
+    "rotY":270.0001,
+    "rotZ":0.453891844,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Quantum Paradox",
+  "Description":"Basic Weakness",
+  "GMNotes":"{\n  \"id\": \"09125\",\n  \"type\": \"Treachery\",\n  \"class\": \"Neutral\",\n  \"traits\": \"Paradox.\",\n  \"permanent\": false,\n  \"weakness\": true\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":379149,
+  "CustomDeck":{
+    "3791":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1814412497119474921/33ED44071C8BCA7379B0E8031F47169B73639E37/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg/",
+      "NumWidth":9,
+      "NumHeight":6,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

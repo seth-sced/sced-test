@@ -1,0 +1,57 @@
+{
+  "GUID":"022907",
+  "Name":"Custom_Token",
+  "Transform":{
+    "posX":22.9512024,
+    "posY":5.242346,
+    "posZ":-30.2954159,
+    "rotX":0.5792924,
+    "rotY":270.038269,
+    "rotZ":0.178260192,
+    "scaleX":2.0,
+    "scaleY":1.0,
+    "scaleZ":2.0
+  },
+  "Nickname":"Token Arranger",
+  "Description":"Displays the content of the chaos bag in tabular fashion.\n\nSee context menu for additional information.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "CustomImage":{
+    "ImageURL":"http://cloud-3.steamusercontent.com/ugc/1838054223124059668/0BF8F541309E717BA84987BD554675A2FD06AF9F/",
+    "ImageSecondaryURL":"",
+    "ImageScalar":1.0,
+    "WidthScale":0.0,
+    "CustomToken":{
+      "Thickness":0.100000009,
+      "MergeDistancePixels":15.0,
+      "StandUp":false,
+      "Stackable":false
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

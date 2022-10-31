@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"cfb393",
+  "Name":"Card",
+  "Transform":{
+    "posX":9.105883,
+    "posY":3.67518687,
+    "posZ":-16.7167072,
+    "rotX":359.91684,
+    "rotY":269.847931,
+    "rotZ":0.0191023089,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"John & Jessie Burke",
+  "Description":"Ally. Government.",
+  "GMNotes":"{\n  \"id\": \"83055\",\n  \"type\": \"Asset\",\n  \"class\": \"Neutral\",\n  \"cost\": 4,\n  \"traits\": \"Ally. Government.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"combatIcons\": 1,\n  \"agilityIcons\": 1,\n  \"wildIcons\": 1,\n  \"cycle\": \"Standalone\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":454740,
+  "CustomDeck":{
+    "4547":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1747933191218921670/8EF5B59C1AC4559A3947140F08010D8B014A11E9/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1747933191218923075/6DE3A0F2FBB17DAA8374540DBE43CE6BD65EB541/",
+      "NumWidth":10,
+      "NumHeight":5,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

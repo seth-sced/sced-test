@@ -1,0 +1,45 @@
+{
+  "GUID":"2275ed",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":0.3335655,
+    "posY":2.58107972,
+    "posZ":-0.36913228,
+    "rotX":-0.0002676536,
+    "rotY":90.00757,
+    "rotZ":0.0009813835,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Return to Expansions",
+  "Description":"When playing with the Return to Versions of the CYOA guides you will need to use the Return to setup card avaliable above the scenario card to modify the original setup of the game.\r\n\r\nEither version can be used to play a Standard campaign.  Howevever, for Return to The Forgotten Age and The Circle Undone you will need the Return to guide.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

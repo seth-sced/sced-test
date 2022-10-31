@@ -1,0 +1,45 @@
+{
+  "GUID":"d8d357",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":77.83561,
+    "posY":1.24414432,
+    "posZ":33.5828476,
+    "rotX":0.0100286258,
+    "rotY":89.99965,
+    "rotZ":0.0154513223,
+    "scaleX":0.250000417,
+    "scaleY":0.250000417,
+    "scaleZ":0.250000417
+  },
+  "Nickname":"",
+  "Description":"lua setNotes(getObjectFromGUID('the objects guid').getJSON())",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":true,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":false,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

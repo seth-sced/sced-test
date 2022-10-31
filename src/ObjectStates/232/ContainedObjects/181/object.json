@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"fa61ba",
+  "Name":"Card",
+  "Transform":{
+    "posX":8.971525,
+    "posY":3.672583,
+    "posZ":-16.6885376,
+    "rotX":359.9201,
+    "rotY":270.01358,
+    "rotZ":0.0168595,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Strange Solution (4)",
+  "Description":"Acidic Ichor",
+  "GMNotes":"{\n  \"id\": \"02263\",\n  \"type\": \"Asset\",\n  \"class\": \"Seeker\",\n  \"cost\": 1,\n  \"level\": 4,\n  \"traits\": \"Item. Science.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"combatIcons\": 2,\n  \"uses\": [\n    {\n      \"count\": 3,\n      \"type\": \"Supply\",\n      \"token\": \"resource\"\n    }\n  ],\n  \"cycle\": \"The Dunwich Legacy\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":430655,
+  "CustomDeck":{
+    "4306":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/960860341956220005/42E220A3221D2BFA22F1B3A71EEE346A8B0AAD77/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg/",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

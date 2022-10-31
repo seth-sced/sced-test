@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"e637cd",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.44836,
+    "posY":1.78804624,
+    "posZ":-73.08692,
+    "rotX":0.0159038119,
+    "rotY":179.999924,
+    "rotZ":359.9794,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Tommy Muldoon",
+  "Description":"The Rookie Cop",
+  "GMNotes":"{\n  \"id\": \"06001\",\n  \"type\": \"Investigator\",\n  \"class\": \"Guardian\",\n  \"traits\": \"Police. Warden.\",\n  \"willpowerIcons\": 3,\n  \"intellectIcons\": 3,\n  \"combatIcons\": 4,\n  \"agilityIcons\": 2,\n  \"cycle\": \"The Dream-Eaters\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":536532,
+  "CustomDeck":{
+    "5365":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1011562618093845971/A678BD374EC4DE672206B5EF7EB57DC885BC839C/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1011562618093845464/80687C9319FA2015F3D9F7CBEB4C55FBF045B27D/",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

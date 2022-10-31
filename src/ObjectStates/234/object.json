@@ -1,0 +1,45 @@
+{
+  "GUID":"268764",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":21.26496,
+    "posY":1.71381211,
+    "posZ":-16.5086746,
+    "rotX":357.996857,
+    "rotY":45.035038,
+    "rotZ":357.88623,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"2.3.1 Notes - 10/15/2022",
+  "Description":"- Fixed issues with TSK cards having the wrong images when imported.\n- Fixed bonded cards appearing in imported decks.\n- Fixed green player board being too high.\n- Fixed \"Uses: 0\" cards from displaying errors.\n- The mythos state of the phase tracker is now locked.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

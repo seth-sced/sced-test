@@ -1,0 +1,57 @@
+{
+  "GUID":"450688",
+  "Name":"Custom_Tile",
+  "Transform":{
+    "posX":37.613,
+    "posY":2.21325469,
+    "posZ":-51.9647179,
+    "rotX":0.0208069123,
+    "rotY":269.9996,
+    "rotZ":0.0167712662,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Hand Helper",
+  "Description":"- DIsplays the hand size (total or by title for \"Dream Enhancing Serum\"), hover over it to briefly toggle counting method\n\n- Adds a context menu to \"Short Supply\" for the 1st turn\n\n- Allows you to randomly discard a card from your hand\n\nSee context menu for additional information.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "CustomImage":{
+    "ImageURL":"http://cloud-3.steamusercontent.com/ugc/1704036721123215146/E44A3B99EACF310E49E94977151A03C9A3DC7F17/",
+    "ImageSecondaryURL":"http://cloud-3.steamusercontent.com/ugc/1704036721123215146/E44A3B99EACF310E49E94977151A03C9A3DC7F17/",
+    "ImageScalar":1.0,
+    "WidthScale":0.0,
+    "CustomTile":{
+      "Thickness":0.1,
+      "Stackable":false,
+      "Type":0,
+      "Stretch":true
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

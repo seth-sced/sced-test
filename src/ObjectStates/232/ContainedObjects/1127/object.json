@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"98a0e1",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.4482918,
+    "posY":1.58684325,
+    "posZ":-73.0882,
+    "rotX":0.256895125,
+    "rotY":179.999527,
+    "rotZ":359.920319,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Zoey Samaras",
+  "Description":"The Chef",
+  "GMNotes":"{\n  \"id\": \"02001\",\n  \"type\": \"Investigator\",\n  \"class\": \"Guardian\",\n  \"traits\": \"Believer. Hunter.\",\n  \"willpowerIcons\": 4,\n  \"intellectIcons\": 2,\n  \"combatIcons\": 4,\n  \"agilityIcons\": 2,\n  \"cycle\": \"The Dunwich Legacy\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":449902,
+  "CustomDeck":{
+    "4499":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1656727981627737050/3CFF9E3825033909543AD1CF843361D9243538EE/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1656727981627737648/F371339538812F68E38AAC0D520C525250DAC5C0/",
+      "NumWidth":4,
+      "NumHeight":2,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

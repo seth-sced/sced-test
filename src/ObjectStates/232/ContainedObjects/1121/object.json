@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"9058d3",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.4484921,
+    "posY":1.62210107,
+    "posZ":-73.08706,
+    "rotX":0.008523375,
+    "rotY":179.99971,
+    "rotZ":359.981171,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Jenny Barnes",
+  "Description":"The Dilettante",
+  "GMNotes":"{\n  \"id\": \"02003\",\n  \"alternate_ids\": [\n    \"98001\"\n  ],\n  \"type\": \"Investigator\",\n  \"class\": \"Rogue\",\n  \"traits\": \"Drifter.\",\n  \"willpowerIcons\": 3,\n  \"intellectIcons\": 3,\n  \"combatIcons\": 3,\n  \"agilityIcons\": 3,\n  \"cycle\": \"The Dunwich Legacy\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":450104,
+  "CustomDeck":{
+    "4501":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1656727981627737050/3CFF9E3825033909543AD1CF843361D9243538EE/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1656727981627737648/F371339538812F68E38AAC0D520C525250DAC5C0/",
+      "NumWidth":4,
+      "NumHeight":2,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

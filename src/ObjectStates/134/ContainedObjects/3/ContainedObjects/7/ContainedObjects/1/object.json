@@ -1,0 +1,51 @@
+{
+  "GUID":"47b9c1",
+  "Name":"Custom_PDF",
+  "Transform":{
+    "posX":-21.4485416,
+    "posY":2.51079464,
+    "posZ":14.841917,
+    "rotX":0.00334196235,
+    "rotY":269.999756,
+    "rotZ":359.987274,
+    "scaleX":1.76113939,
+    "scaleY":1.0,
+    "scaleZ":1.76113939
+  },
+  "Nickname":"The Dream Quest (Campaign A)",
+  "Description":"The Dream-Eaters",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "CustomPDF":{
+    "PDFUrl":"https://github.com/Antimarkovnikov/TTS_AHC_CYOA/blob/master/Dual%20Pages%2006%20The%20Dream-Eaters%20-%20A%20-%20The%20Dream-Quest.pdf?raw=true",
+    "PDFPassword":"",
+    "PDFPage":0,
+    "PDFPageOffset":0
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

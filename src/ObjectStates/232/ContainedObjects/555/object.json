@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"223ba3",
+  "Name":"Card",
+  "Transform":{
+    "posX":9.097172,
+    "posY":3.68387032,
+    "posZ":-16.7148743,
+    "rotX":359.9384,
+    "rotY":269.866638,
+    "rotZ":0.00550059369,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Twilight Blade",
+  "Description":"Sanctum's Reward",
+  "GMNotes":"{\n  \"id\": \"05013\",\n  \"type\": \"Asset\",\n  \"class\": \"Neutral\",\n  \"cost\": 3,\n  \"traits\": \"Item. Relic. Weapon.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"willpowerIcons\": 1,\n  \"combatIcons\": 1,\n  \"wildIcons\": 1,\n  \"cycle\": \"The Circle Undone\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":449359,
+  "CustomDeck":{
+    "4493":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/960860341956229149/FC980D306FA8FE74C552981167CBDF4305821B31/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg/",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

@@ -1,0 +1,46 @@
+{
+  "Tags":["import_command"],
+  "GUID":"f4b112",
+  "Name":"Checker_white",
+  "Transform":{
+    "posX":-48.10565,
+    "posY":3.41714334,
+    "posZ":-75.43099,
+    "rotX":358.359924,
+    "rotY":0.211258739,
+    "rotZ":178.454788,
+    "scaleX":0.35,
+    "scaleY":0.35,
+    "scaleZ":0.35
+  },
+  "Nickname":"Include Command",
+  "Description":"Arguments:\ncount\nname\nsubtitle\nimage_uri\nzone [Optional]\nback_image_uri [Optional]",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

@@ -1,0 +1,45 @@
+{
+  "GUID":"f3dfc9",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":17.1748123,
+    "posY":3.593701,
+    "posZ":-38.81848,
+    "rotX":0.44045648,
+    "rotY":89.9851456,
+    "rotZ":359.8945,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"HOW TO USE SECRET OBJ.",
+  "Description":"\n\nAt the start of each scenario, each investigator is dealt 2 secret objectives, they choose one. If they complete their secret objective at any time during the scenario, they add the card to their PERSONAL victory display.\n\n",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

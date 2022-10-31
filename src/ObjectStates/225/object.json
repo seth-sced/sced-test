@@ -1,0 +1,46 @@
+{
+  "Tags":["import_configuration_provider"],
+  "GUID":"03804b",
+  "Name":"Checker_white",
+  "Transform":{
+    "posX":77.46441,
+    "posY":1.48507714,
+    "posZ":4.351721,
+    "rotX":359.98996,
+    "rotY":270.000275,
+    "rotZ":179.984528,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Configuration",
+  "Description":"for DeckImporter",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":true,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

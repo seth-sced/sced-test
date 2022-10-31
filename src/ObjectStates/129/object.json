@@ -1,0 +1,45 @@
+{
+  "GUID":"36b4ee",
+  "Name":"Checker_white",
+  "Transform":{
+    "posX":77.1586761,
+    "posY":1.29656661,
+    "posZ":6.95194674,
+    "rotX":359.989868,
+    "rotY":270.014435,
+    "rotZ":179.984467,
+    "scaleX":0.250000417,
+    "scaleY":0.250000417,
+    "scaleZ":0.250000417
+  },
+  "Nickname":"Token Spawner",
+  "Description":"",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":true,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

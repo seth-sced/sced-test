@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"754b0a",
+  "Name":"Card",
+  "Transform":{
+    "posX":21.4309425,
+    "posY":2.21608329,
+    "posZ":-71.8295059,
+    "rotX":0.0168676451,
+    "rotY":180.002991,
+    "rotZ":0.07987845,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Mandy Thompson (Taboo)",
+  "Description":"The Researcher",
+  "GMNotes":"{\n  \"id\": \"06002-t\",\n  \"type\": \"Investigator\",\n  \"class\": \"Seeker\",\n  \"traits\": \"Assistant. Scholar.\",\n  \"willpowerIcons\": 3,\n  \"intellectIcons\": 5,\n  \"combatIcons\": 1,\n  \"agilityIcons\": 3,\n  \"cycle\": \"The Dream-Eaters\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":558301,
+  "CustomDeck":{
+    "5583":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1802024937476550198/99699EB95501C488B55445D304315BF231CB63F7/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1802024937476550359/A275A59476B12F2C38F9863D8AB889DCB382D1D1/",
+      "NumWidth":2,
+      "NumHeight":2,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"2f2e0d",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.4485054,
+    "posY":1.688406,
+    "posZ":-73.08671,
+    "rotX":0.0077279415,
+    "rotY":179.999908,
+    "rotZ":359.9814,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Daisy Walker (Parallel Back)",
+  "Description":"The Librarian",
+  "GMNotes":"{\n  \"id\": \"01002-pb\",\n  \"type\": \"Investigator\",\n  \"class\": \"Seeker\",\n  \"traits\": \"Miskatonic.\",\n  \"willpowerIcons\": 3,\n  \"intellectIcons\": 5,\n  \"combatIcons\": 2,\n  \"agilityIcons\": 2,\n  \"cycle\": \"Core\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":273901,
+  "CustomDeck":{
+    "2739":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1011562618093845971/A678BD374EC4DE672206B5EF7EB57DC885BC839C/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1017195287736569204/9F5F294127B638FECFF0BC88A0F93387AF994431/",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

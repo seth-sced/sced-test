@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"e89f48",
+  "Name":"Card",
+  "Transform":{
+    "posX":9.14331,
+    "posY":3.73968577,
+    "posZ":-16.725008,
+    "rotX":359.922455,
+    "rotY":269.795776,
+    "rotZ":0.00508881826,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Blade of Ark'at",
+  "Description":"Shellblade Tribute",
+  "GMNotes":"{\n  \"id\": \"86054\",\n  \"type\": \"Asset\",\n  \"class\": \"Neutral\",\n  \"cost\": 1,\n  \"traits\": \"Item. Relic. Weapon. Melee.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"combatIcons\": 2,\n  \"wildIcons\": 1,\n  \"cycle\": \"Standalone\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":582629,
+  "CustomDeck":{
+    "5826":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1655600953065965648/5A0D88CCA811A490C2FEF2675A397E1CEE010870/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg/",
+      "NumWidth":8,
+      "NumHeight":4,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

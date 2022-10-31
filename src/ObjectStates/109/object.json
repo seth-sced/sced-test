@@ -1,0 +1,57 @@
+{
+  "GUID":"4a3aa4",
+  "Name":"Custom_Token",
+  "Transform":{
+    "posX":-5.36947727,
+    "posY":1.5574733,
+    "posZ":-5.09981251,
+    "rotX":359.919739,
+    "rotY":269.999878,
+    "rotZ":0.0168455187,
+    "scaleX":0.4,
+    "scaleY":1.0,
+    "scaleZ":0.4
+  },
+  "Nickname":"Master Clue Counter\n",
+  "Description":"Click to remove all clues from all investigators",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.8745098,
+    "g":0.8745098,
+    "b":0.8745098
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":true,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":false,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "CustomImage":{
+    "ImageURL":"http://cloud-3.steamusercontent.com/ugc/1758068501357164917/1D06F1DC4D6888B6F57124BD2AFE20D0B0DA15A8/",
+    "ImageSecondaryURL":"",
+    "ImageScalar":1.0,
+    "WidthScale":0.0,
+    "CustomToken":{
+      "Thickness":0.1,
+      "MergeDistancePixels":5.0,
+      "StandUp":false,
+      "Stackable":false
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

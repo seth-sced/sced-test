@@ -1,0 +1,45 @@
+{
+  "GUID":"739ee5",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":18.4474373,
+    "posY":3.59918427,
+    "posZ":-25.8548622,
+    "rotX":0.409890354,
+    "rotY":89.98979,
+    "rotZ":0.305724472,
+    "scaleX":0.7,
+    "scaleY":1.0,
+    "scaleZ":0.7
+  },
+  "Nickname":"Navigation Overlay",
+  "Description":"Controls a movable overlay allowing for quick movement to various parts of the table. There should only be one tile per table.\n\nFull Table: Displays a larger overlay corresponding to the whole table.\n\nPlay Area: Displays a much smaller overlay only covering the play area.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

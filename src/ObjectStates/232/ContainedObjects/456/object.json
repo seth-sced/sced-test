@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"ad0ef0",
+  "Name":"Card",
+  "Transform":{
+    "posX":9.047791,
+    "posY":3.88959241,
+    "posZ":-16.7044983,
+    "rotX":359.783661,
+    "rotY":269.9552,
+    "rotZ":0.10327398,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Lonnie Ritter",
+  "Description":"Feisty Mechanic",
+  "GMNotes":"{\n  \"id\": \"60309\",\n  \"type\": \"Asset\",\n  \"class\": \"Rogue\",\n  \"cost\": 4,\n  \"level\": 0,\n  \"traits\": \"Ally.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"combatIcons\": 1,\n  \"cycle\": \"Investigator Packs\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":538607,
+  "CustomDeck":{
+    "5386":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1626320456298037683/22C99DD745DFF65ECC72FD32EFA9C9D0F0C12862/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg/",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

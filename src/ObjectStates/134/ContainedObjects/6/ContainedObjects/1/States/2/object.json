@@ -1,0 +1,45 @@
+{
+  "GUID":"3051f2",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":6.08392429,
+    "posY":1.53338218,
+    "posZ":-32.7559,
+    "rotX":0.07987893,
+    "rotY":89.9998,
+    "rotZ":359.983124,
+    "scaleX":0.7,
+    "scaleY":1.0,
+    "scaleZ":0.7
+  },
+  "Nickname":"Navigation Overlay",
+  "Description":"If there is only 1 player, clicking a button to move to a playmat will change the player's color to that playmat's color. Changes to camera settings will apply to all colors.\n\nIf there is more than 1 player, displaying the overlay or editing a camera setting will only apply to your color.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

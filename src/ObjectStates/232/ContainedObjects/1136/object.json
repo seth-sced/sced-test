@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"02db0a",
+  "Name":"Card",
+  "Transform":{
+    "posX":87.05169,
+    "posY":2.11896634,
+    "posZ":-78.5057144,
+    "rotX":355.42807,
+    "rotY":179.997482,
+    "rotZ":-0.0004028655,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Agnes Baker (Parallel Front)",
+  "Description":"The Waitress",
+  "GMNotes":"{\n  \"id\": \"01004-pf\",\n  \"type\": \"Investigator\",\n  \"class\": \"Mystic\",\n  \"traits\": \"Sorcerer.\",\n  \"willpowerIcons\": 5,\n  \"intellectIcons\": 2,\n  \"combatIcons\": 2,\n  \"agilityIcons\": 3,\n  \"cycle\": \"Core\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":535905,
+  "CustomDeck":{
+    "5359":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1655599785038868372/5C2FC3F391C6D3B287C38B875F83629110163282/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1655599785038868958/4F366892FB57AF3841513790E41E15D85E9DC211/",
+      "NumWidth":4,
+      "NumHeight":2,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}

@@ -1,0 +1,46 @@
+{
+  "Tags":["arkham_setup_memory_object"],
+  "GUID":"445115",
+  "Name":"Checker_black",
+  "Transform":{
+    "posX":77.1586761,
+    "posY":1.29673862,
+    "posZ":6.31477737,
+    "rotX":359.989868,
+    "rotY":269.999939,
+    "rotZ":179.984467,
+    "scaleX":0.250000417,
+    "scaleY":0.250000417,
+    "scaleZ":0.250000417
+  },
+  "Nickname":"Arkham Deck Cutter",
+  "Description":"",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.0,
+    "g":0.0,
+    "b":0.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":true,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

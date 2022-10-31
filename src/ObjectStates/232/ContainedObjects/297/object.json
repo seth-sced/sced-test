@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard","Asset"],
+  "GUID":"aae31c",
+  "Name":"Card",
+  "Transform":{
+    "posX":8.991672,
+    "posY":3.76758313,
+    "posZ":-16.6927242,
+    "rotX":359.799652,
+    "rotY":270.0143,
+    "rotZ":0.04586478,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"\"Lucky\" Penny (2)",
+  "Description":"Omen of Misfortune",
+  "GMNotes":"{\n  \"id\": \"07224\",\n  \"type\": \"Asset\",\n  \"class\": \"Rogue\",\n  \"cost\": 2,\n  \"level\": 2,\n  \"traits\": \"Item. Charm. Cursed.\",\n  \"permanent\": false,\n  \"weakness\": false,\n  \"willpowerIcons\": 1,\n  \"agilityIcons\": 1,\n  \"cycle\": \"The Innsmouth Conspiracy\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":true,
+  "Hands":true,
+  "CardID":579504,
+  "CustomDeck":{
+    "5795":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1747933191219101327/797556CAC112D6D289B3A5D3A28433C9F0999CB5/",
+      "BackURL":"https://i.imgur.com/EcbhVuh.jpg/",
+      "NumWidth":6,
+      "NumHeight":5,
+      "BackIsHidden":true,
+      "UniqueBack":false,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":false
+}

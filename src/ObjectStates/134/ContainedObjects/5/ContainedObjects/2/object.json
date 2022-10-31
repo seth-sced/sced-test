@@ -1,0 +1,45 @@
+{
+  "GUID":"4564ef",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":-21.3821754,
+    "posY":2.70786,
+    "posZ":-16.101778,
+    "rotX":0.079906024,
+    "rotY":90.02968,
+    "rotZ":359.983215,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"[b]Arkham Fantasy - Pixel Art Mini-Cards[/b]",
+  "Description":"Designed by William \"Lemmingrad\" Jung\n\nTo properly illuminate stands.\n[b]Options[/b]: [b]Lighting[/b]\n1) Set [b]Ambient[/b] to [b]Gradient[/b]. \n2) Turn down [b]Reflection Intensity[/b] to your preference. \n3) Adjust [b]Ambient Intensity[/b] to your preference.\n",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

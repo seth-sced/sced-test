@@ -1,0 +1,45 @@
+{
+  "GUID":"045a3e",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":6.08392334,
+    "posY":1.53338218,
+    "posZ":-32.7558937,
+    "rotX":0.07987977,
+    "rotY":89.9998856,
+    "rotZ":359.983124,
+    "scaleX":0.7,
+    "scaleY":1.0,
+    "scaleZ":0.7
+  },
+  "Nickname":"Navigation Overlay: Edit Camera (2/2)",
+  "Description":"1. Click \"Edit Camera\"\n2. Click a button in the overlay, it will turn green.\n3. Use the Camera Placement Helper to set the camera view.\n4. When clicking \"Set camera to this angle\" produces the correct camera view, click the green button in the overlay again to set the camera. Click a red button to cancel.",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

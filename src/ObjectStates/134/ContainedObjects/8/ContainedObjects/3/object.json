@@ -1,0 +1,46 @@
+{
+  "Tags":["mlc_memory_object","token_list_provider"],
+  "GUID":"297f5e",
+  "Name":"Checker_black",
+  "Transform":{
+    "posX":12.9837513,
+    "posY":4.044692,
+    "posZ":29.8283482,
+    "rotX":359.8598,
+    "rotY":270.025757,
+    "rotZ":206.241089,
+    "scaleX":1.0,
+    "scaleY":1.0,
+    "scaleZ":1.0
+  },
+  "Nickname":"Token List",
+  "Description":"",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.0,
+    "g":0.0,
+    "b":0.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

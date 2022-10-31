@@ -1,0 +1,45 @@
+{
+  "GUID":"579a11",
+  "Name":"Notecard",
+  "Transform":{
+    "posX":6.083923,
+    "posY":1.53338218,
+    "posZ":-32.75589,
+    "rotX":0.07987937,
+    "rotY":89.99992,
+    "rotZ":359.983124,
+    "scaleX":0.7,
+    "scaleY":1.0,
+    "scaleZ":0.7
+  },
+  "Nickname":"Navigation Overlay: Edit Camera (1/2)",
+  "Description":"Edit Camera:  TTS does not make accessing camera settings easy, so this is done using a modified version of MrStump's Camera Placement Helper.\n\nTo use the Helper, place it in the position you want the camera to look, with the desired rotation.  Set the Pitch and Distance values.  Click \"Set camera to this angle\".",
+  "GMNotes":"",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":1.0,
+    "g":1.0,
+    "b":1.0
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":false,
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":""
+}

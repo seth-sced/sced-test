@@ -1,0 +1,59 @@
+{
+  "Tags":["PlayerCard"],
+  "GUID":"6c4c58",
+  "Name":"Card",
+  "Transform":{
+    "posX":18.4482613,
+    "posY":1.83593285,
+    "posZ":-73.08701,
+    "rotX":0.0168265216,
+    "rotY":179.999924,
+    "rotZ":359.9792,
+    "scaleX":1.1,
+    "scaleY":1.0,
+    "scaleZ":1.1
+  },
+  "Nickname":"Minh Thi Phan",
+  "Description":"The Secretary",
+  "GMNotes":"{\n  \"id\": \"03002\",\n  \"type\": \"Investigator\",\n  \"class\": \"Seeker\",\n  \"traits\": \"Assistant.\",\n  \"willpowerIcons\": 4,\n  \"intellectIcons\": 4,\n  \"combatIcons\": 2,\n  \"agilityIcons\": 2,\n  \"cycle\": \"The Path to Carcosa\"\n}",
+  "AltLookAngle":{
+    "x":0.0,
+    "y":0.0,
+    "z":0.0
+  },
+  "ColorDiffuse":{
+    "r":0.713235259,
+    "g":0.713235259,
+    "b":0.713235259
+  },
+  "LayoutGroupSortIndex":0,
+  "Value":0,
+  "Locked":false,
+  "Grid":true,
+  "Snap":true,
+  "IgnoreFoW":false,
+  "MeasureMovement":false,
+  "DragSelectable":true,
+  "Autoraise":true,
+  "Sticky":true,
+  "Tooltip":true,
+  "GridProjection":false,
+  "HideWhenFaceDown":false,
+  "Hands":true,
+  "CardID":270811,
+  "CustomDeck":{
+    "2708":{
+      "FaceURL":"http://cloud-3.steamusercontent.com/ugc/1011562618093845971/A678BD374EC4DE672206B5EF7EB57DC885BC839C/",
+      "BackURL":"http://cloud-3.steamusercontent.com/ugc/1011562618093845464/80687C9319FA2015F3D9F7CBEB4C55FBF045B27D/",
+      "NumWidth":10,
+      "NumHeight":7,
+      "BackIsHidden":true,
+      "UniqueBack":true,
+      "Type":0
+    }
+  },
+  "LuaScript":"",
+  "LuaScriptState":"",
+  "XmlUI":"",
+  "SidewaysCard":true
+}
