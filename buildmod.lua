@@ -72,9 +72,14 @@ end
 
 local args = {...}
 
+if #args == 0 then
+  print('Usage: lua buildmod.lua <input_dir> <external_src_dir> <output.json>')
+  os.exit(0)
+end
+
 local input_dir = args[1]
-local output_json_filename = args[2]
-bundle_search_root = args[3]
+bundle_search_root = args[2]
+local output_json_filename = args[3]
 
 local global_file <close> = io.open(input_dir .. '/global.json')
 local global_object = json.decode(global_file:read('a'))

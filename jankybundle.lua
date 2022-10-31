@@ -187,6 +187,7 @@ function janky.bundle(root_module_name, filename, settings)
   local bundle_data = {rootModuleName = root_module_name, version = janky.version}
   -- local result = ('-- Bundled by jankybundle %s\n%s'):format(json.encode(bundle_data), bundle_code)
   local result = '-- Bundled by luabundle {"version":"1.6.0"}\n'
+  result = result .. bundle_code
 
   result = result .. register_format:format(root_module_name, root_module_code)
 

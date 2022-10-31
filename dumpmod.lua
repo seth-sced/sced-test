@@ -1,5 +1,5 @@
 #!/usr/local/bin/lua
-local do_unbundle = false
+local do_unbundle = true
 
 local json = require 'dkjson'
 local fs = require 'lfs'
@@ -85,13 +85,18 @@ end
 
 local args = {...}
 
+if #args == 0 then
+  print('Usage: lua dumpmod.lua <mod_file.json> <output_dir>')
+  os.exit(0)
+end
+
 local input_json_filename = args[1]
 local output_dir = args[2]
 
 local dest_mode = fs.attributes(output_dir, 'mode')
 
 if dest_mode then
-  error('destination exists')
+  error('destination exists. Delete it before running dumpmod.lua')
 end
 
 local file = io.open(input_json_filename):read('a')
