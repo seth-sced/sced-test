@@ -37,7 +37,13 @@ function write_luaxmlstate(obj)
     end
   end
   if not is_nil_or_empty(obj.XmlUI) then write_file('ui.xml', obj.XmlUI) end
-  if not is_nil_or_empty(obj.LuaScriptState) then write_file('state.json', json.encode(json.decode(obj.LuaScriptState), {indent = true})) end
+  if not is_nil_or_empty(obj.LuaScriptState) then
+    local script_state_obj = json.decode(obj.LuaScriptState)
+    local keyorder = keyorder_for_placement_bag_state(script_state_obj)
+    write_file('state.json',
+               json.encode(script_state_obj,
+                           {indent = true, keyorder = keyorder}))
+  end
 
   obj.LuaScript = ""
   obj.LuaScriptState = ""
@@ -54,6 +60,9 @@ function recursive_write_luaxmlstate(obj)
   end
 
   write_luaxmlstate(obj)
+  if obj.Name == 'Deck' then
+    setmetatable(obj.CustomDeck, {__jsonorder = keyorder_for_CustomDeck(obj.CustomDeck)})
+  end
   write_file('object.json', json.encode(obj, {indent = true, keyorder = json_keyorder}))
 
   if ContainedObjects then

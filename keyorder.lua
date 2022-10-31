@@ -99,5 +99,35 @@ if #dup > 0 then
   error(err)
 end
 
+function keyorder_for_CustomDeck(CustomDeck)
+  local keys = sorted_keys_for_obj(CustomDeck)
+  return keys
+end
+function keyorder_for_placement_bag_state(state)
+  local keys = sorted_keys_for_obj(state.ml)
+  if keys then
+    keys[#keys + 1] = 'lock'
+    keys[#keys + 1] = 'pos'
+    keys[#keys + 1] = 'position'
+    keys[#keys + 1] = 'rot'
+    keys[#keys + 1] = 'rotation'
+    keys[#keys + 1] = 'x'
+    keys[#keys + 1] = 'y'
+    keys[#keys + 1] = 'z'
+  end
+  return keys
+end
+
+function sorted_keys_for_obj(obj)
+  if not obj then return nil end
+  if #obj > 0 then return nil end
+
+  local keys = {}
+  for k,_ in pairs(obj) do
+    keys[#keys + 1] = k
+  end
+  table.sort(keys)
+  return keys
+end
 
 return json_keyorder
