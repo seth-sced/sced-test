@@ -7,16 +7,7 @@ local url = require 'urlencode'
 
 local janky = require 'jankybundle'
 
-local json_keyorder = { 'SaveName', 'EpochTime', 'Date', 'VersionNumber',
-'GameMode', 'GameType', 'GameComplexity', 'PlayingTime', 'PlayerCounts', 'Tags',
-'Gravity', 'PlayArea', 'Table', 'Sky', 'SkyURL', 'Note', 'TabStates',
-'MusicPlayer', 'GUID', 'Name', 'Transform', 'Nickname', 'Description',
-'GMNotes', 'AltLookAngle', 'ColorDiffuse', 'LayoutGroupSortIndex', 'Value',
-'Locked', 'Grid', 'Snap', 'IgnoreFoW', 'MeasureMovement', 'DragSelectable',
-'Autoraise', 'Sticky', 'Tooltip', 'GridProjection', 'HideWhenFaceDown',
-'Lighting', 'Hands', 'ComponentTags', 'Turns', 'CameraStates', 'DecalPallet',
-'FogColor', 'LuaScript', 'LuaScriptState', 'XmlUI', 'CustomUIAssets', 'Decals',
-'SnapPoints', 'ObjectStates', 'States', 'ContainedObjects' }
+local json_keyorder = require 'keyorder'
 
 function is_nil_or_empty(str)
   return str == nil or str:len() == 0
@@ -83,7 +74,7 @@ function recursive_write_luaxmlstate(obj)
     for k,v in pairs(States) do
       fs.mkdir(k)
       fs.chdir(k)
-      recursive_write_luaxmlstate(obj)
+      recursive_write_luaxmlstate(v)
       fs.chdir('..')
     end
     fs.chdir('..')
