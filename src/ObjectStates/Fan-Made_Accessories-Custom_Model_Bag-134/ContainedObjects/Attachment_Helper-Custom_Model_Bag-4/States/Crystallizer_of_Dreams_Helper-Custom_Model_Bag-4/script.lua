@@ -141,7 +141,7 @@ function recreateButtons()
 
         verticalPosition = verticalPosition - 0.5
     end
-
+
     self.createButton({
         label          = countLabel,
         click_function = 'none',
