@@ -1,7 +1,7 @@
 {
-  "tid":[],
   "cd":{
-    "move":false,
-    "scale":false
-  }
+    "scale":false,
+    "move":false
+  },
+  "tid":[]
 }

@@ -104,17 +104,35 @@ function keyorder_for_CustomDeck(CustomDeck)
   return keys
 end
 function keyorder_for_placement_bag_state(state)
-  local keys = sorted_keys_for_obj(state.ml)
-  if keys then
-    keys[#keys + 1] = 'lock'
-    keys[#keys + 1] = 'pos'
-    keys[#keys + 1] = 'position'
-    keys[#keys + 1] = 'rot'
-    keys[#keys + 1] = 'rotation'
-    keys[#keys + 1] = 'x'
-    keys[#keys + 1] = 'y'
-    keys[#keys + 1] = 'z'
+  local uniq = {}
+  local keys = {}
+
+  local function merge(new_keys)
+    if new_keys then
+      for i,k in ipairs(new_keys) do
+        if not uniq[k] then
+          uniq[k] = true
+          keys[#keys + 1] = k
+        end
+      end
+    end
   end
+
+  local fixed_keys = {'lock', 'pos', 'position', 'rot', 'rotation', 'x', 'y',
+    'z', 'private', 'loadNewest', 'investigators', 'playVis', 'fullVis',
+    'cameras', 'Red', 'redDeck', 'Orange', 'orangeDeck', 'White', 'whiteDeck',
+    'Green', 'greenDeck', 'position', 'distance', 'pitch', 'yaw', 'cd', 'tid',
+    'name', 'url', 'scale', 'move', 'counter', 'textbox', 'checkbox', 'size',
+    'state', 'pos', 'value', 'rows', 'alignment', 'width', 'label', 'font_size',
+    'tracking', 'tokens', 'auto_update', 'Skull', 'skull', 'Cultist', 'cultist',
+    'Tablet', 'tablet', 'Elder Thing', 'elder_thing', 'Auto-fail', 'autofail',
+    'Elder Sign', 'elder_sign', 'Bless', 'bless', 'Curse', 'curse', 'Frost',
+    'frost', 'unnamed'}
+
+  merge(fixed_keys)
+  merge(sorted_keys_for_obj(state))
+  merge(sorted_keys_for_obj(state.ml))
+
   return keys
 end
 

@@ -1,9 +1,9 @@
 {
-  "whiteDeck":"",
+  "private":true,
+  "loadNewest":true,
   "investigators":true,
   "redDeck":"",
-  "greenDeck":"",
-  "loadNewest":true,
   "orangeDeck":"",
-  "private":true
+  "whiteDeck":"",
+  "greenDeck":""
 }
