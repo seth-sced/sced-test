@@ -52,6 +52,14 @@ function sanitized(str)
   return str:gsub('[^%a%d-._]', '_')
 end
 
+function safe_name(key, obj)
+  assert(type(key) == 'string')
+  return ('%s-%s-%s'):format(
+        #(obj.Nickname) > 0 and sanitized(obj.Nickname) or '',
+        #(obj.Name) > 0 and sanitized(obj.Name) or '',
+        key)
+end
+
 function recursive_write_luaxmlstate(obj)
   local States = obj.States
   obj.States = nil
@@ -65,17 +73,16 @@ function recursive_write_luaxmlstate(obj)
   if obj.Name == 'Deck' then
     setmetatable(obj.CustomDeck, {__jsonorder = keyorder_for_CustomDeck(obj.CustomDeck)})
   end
-  local safename = ('object-%s-%s.json'):format(sanitized(obj.Name),
-    (#(obj.Nickname) > 0 and sanitized(obj.Nickname)) or '' )
 
-  write_file(safename, json.encode(obj, {indent = true, keyorder = json_keyorder}))
+  write_file('object.json', json.encode(obj, {indent = true, keyorder = json_keyorder}))
 
   if ContainedObjects then
     fs.mkdir('ContainedObjects')
     fs.chdir('ContainedObjects')
     for i,v in ipairs(ContainedObjects) do
-      fs.mkdir(tostring(i))
-      fs.chdir(tostring(i))
+      local safe_dir_name = safe_name(tostring(i), v)
+      fs.mkdir(safe_dir_name)
+      fs.chdir(safe_dir_name)
       recursive_write_luaxmlstate(v)
       fs.chdir('..')
     end
@@ -86,8 +93,9 @@ function recursive_write_luaxmlstate(obj)
     fs.mkdir('States')
     fs.chdir('States')
     for k,v in pairs(States) do
-      fs.mkdir(k)
-      fs.chdir(k)
+      local safe_dir_name = safe_name(k, v)
+      fs.mkdir(safe_dir_name)
+      fs.chdir(safe_dir_name)
       recursive_write_luaxmlstate(v)
       fs.chdir('..')
     end
@@ -123,8 +131,9 @@ fs.mkdir('ObjectStates')
 fs.chdir('ObjectStates')
 
 for i,obj in ipairs(game_object.ObjectStates) do
-  fs.mkdir(tostring(i))
-  fs.chdir(tostring(i))
+  local safe_dir_name = safe_name(tostring(i), obj)
+  fs.mkdir(safe_dir_name)
+  fs.chdir(safe_dir_name)
   recursive_write_luaxmlstate(obj)
   fs.chdir('..')
 end

@@ -1,0 +1,12 @@
+{
+  "Elder Sign":[100,2],
+  "Elder Thing":[-4,6],
+  "Bless":[101,8],
+  "":[0,11],
+  "Frost":[-99,10],
+  "Curse":[-100,9],
+  "Tablet":[-3,5],
+  "Skull":[-1,3],
+  "Cultist":[-2,4],
+  "Auto-fail":[-100,7]
+}

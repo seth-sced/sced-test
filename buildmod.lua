@@ -29,13 +29,6 @@ function read_luaxmlstate(path, obj)
   if ui then obj.XmlUI = ui:read('a') end
 end
 
-function find_object_json(path)
-  for entry in fs.dir(path) do
-    if entry:match('object-.*%.json') then return entry end
-  end
-  return nil
-end
-
 local skip = {['.'] = true, ['..'] = true}
 function read_object_dict(path)
   local dict = {}
@@ -43,12 +36,11 @@ function read_object_dict(path)
   for entry in fs.dir(path) do
     -- skip anything that's not a directory containing an object.json file
 
-    if not skip[entry] and fs.attributes(path .. '/' .. entry, 'mode') == 'directory' then
-      local obj_entry = find_object_json(path .. '/' .. entry)
-      if obj_entry then
-        dict[entry] = read_object(path .. '/' .. entry)
-        count = count + 1
-      end
+    if not skip[entry] and fs.attributes(('%s/%s/object.json'):format(path, entry), 'mode') then
+      local state_key = entry:match('.*-.*-(%d+)')
+      assert(state_key)
+      dict[state_key] = read_object(path .. '/' .. entry)
+      count = count + 1
     end
   end
 
@@ -59,22 +51,27 @@ end
 
 function read_object_array(path)
   local array = {}
-  local i = 1
-  while fs.attributes(path .. '/' .. tostring(i), 'mode') == 'directory' do
-    array[i] = read_object(path .. '/' .. tostring(i))
-    i = i + 1
+
+  local count = 0
+  for entry in fs.dir(path) do
+    local match = entry:match('.*-.*-(%d+)')
+    if match then
+      count = count + 1
+      array[tonumber(match)] = read_object(path .. '/' .. entry)
+    end
   end
+
+  assert(#array == count)
   return array
 end
 
 function read_object(path)
-  local obj_filename = find_object_json(path)
-  if not obj_filename then print('failed to find object at ' .. path) return nil end
+  local obj_filename = 'object.json'
 
   local obj_file <close> = io.open(path .. '/' .. obj_filename, 'r')
   if not obj_file then print('failed to read object at ' .. path) return nil end
 
-  if path:match('%.$') then error('traversing .. or ..') end
+  if path:match('%.$') then error('traversing . or ..') end
 
   local obj = json.decode(obj_file:read('a'))
   read_luaxmlstate(path, obj)
